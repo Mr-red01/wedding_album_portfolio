@@ -95,18 +95,6 @@ export const Navigation: React.FC<NavigationProps> = ({
                 }}
               >
                 <span>{category.name}</span>
-                {category.photoCount !== undefined && (
-                  <span
-                    style={{
-                      marginLeft: '6px',
-                      fontSize: '0.7rem',
-                      opacity: isActive ? 0.9 : 0.6,
-                      fontWeight: 600,
-                    }}
-                  >
-                    ({category.photoCount})
-                  </span>
-                )}
               </button>
             );
           })}

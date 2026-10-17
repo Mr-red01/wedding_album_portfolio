@@ -75,8 +75,6 @@ export const GalleryGrid: React.FC<GalleryGridProps> = ({
           }}
         >
           <span>Curated Album</span>
-          <span>•</span>
-          <span>{photos.length} Photographs</span>
         </div>
 
         <h2
